@@ -16,4 +16,4 @@ class Triangle:
         return (self.a!=self.b) and (self.b!=self.c) and (self.a!=self.c) and ((self.a+self.b>self.c) and (self.a+self.c>self.b) and (self.b+self.c>self.a))
 
     def triangle_equilateral(self):
-        return (self.a==self.b) and (self.b ==self.c)
+        return (self.a==self.b) and (self.b ==self.c) and ((self.a + self.b > self.c) and (self.a + self.c > self.b) and (self.b + self.c > self.a))
